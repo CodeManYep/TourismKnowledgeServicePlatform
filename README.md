@@ -1,4 +1,4 @@
-# TourismKnowledgeGraph
+# TourismKnowledgeServicePlatform
 基于知识库的中文旅游领域知识服务平台构建 - 从旅游数据集到中文旅游知识库构建，最后到旅游知识服务平台构建
 
 功能模块包括：
