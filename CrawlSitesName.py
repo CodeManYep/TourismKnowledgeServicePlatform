@@ -48,6 +48,7 @@ def getSitesName():
                 #print(html)
                 soup = BeautifulSoup(html, "html.parser")
                 spots_list = soup.find('div', attrs={'class': 'city_spots_list'})
+                #匹配景点名称节点
                 names = spots_list.findAll('div', attrs={'class': 'title'})
                 for name in names:
                     if name.find('b').string == '':
